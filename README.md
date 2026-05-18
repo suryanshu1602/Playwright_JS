@@ -40,6 +40,7 @@ This repository contains Playwright JavaScript examples and exercises.
    - `Literal_Number_all.js` - Comprehensive examples of all number types in JavaScript
    - `String.js` - Examples of JavaScript string literals (single and double quotes)
    - `Template_Literal.js` - Examples of JavaScript template literals (backticks)
+   - `Backtick_single_double.js` - Comparison of single quotes, double quotes, and backticks in JavaScript
    - `null.js` - Exploring null and undefined values in JavaScript
    - `null_undefined.js` - Detailed comparison of null vs undefined
 
