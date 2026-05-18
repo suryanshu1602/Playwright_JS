@@ -56,6 +56,13 @@ This repository contains Playwright JavaScript examples and exercises.
    npx playwright test
    ```
 
+- `CH_6_Operator/` - Chapter 6: Operators
+   - `Operator.js` - Basic JavaScript operators introduction
+   - `Arithmetic_OP.js` - Arithmetic operators (+, -, *, /) examples
+   - `Modulus_OP.js` - Modulus operator (%) examples
+   - `Expo_OP.js` - Exponentiation operator (**) examples
+   - `IQ.js` - Operator precedence and IQ test examples
+
 ## Requirements
 
 - Node.js >= 14
