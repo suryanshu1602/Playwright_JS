@@ -35,9 +35,11 @@ This repository contains Playwright JavaScript examples and exercises.
   - `var_let_const.js` - Comparison of var, let, and const
 
 - `CH_5_Literials/` - Chapter 5: Literals
-  - `Literal.js` - JavaScript literal types examples (string, number, boolean, null, undefined)
-  - `null.js` - Exploring null and undefined values in JavaScript
-  - `null_undefined.js` - Detailed comparison of null vs undefined
+   - `Literal.js` - JavaScript literal types examples (string, number, boolean, null, undefined)
+   - `Literal_All.js` - Examples of different numeric literal formats (hex, octal, scientific notation)
+   - `Literal_Number_all.js` - Comprehensive examples of all number types in JavaScript
+   - `null.js` - Exploring null and undefined values in JavaScript
+   - `null_undefined.js` - Detailed comparison of null vs undefined
 
 ## Getting Started
 
