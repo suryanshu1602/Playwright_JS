@@ -34,6 +34,11 @@ This repository contains Playwright JavaScript examples and exercises.
   - `var_functionscope.js` - Var function scoping examples
   - `var_let_const.js` - Comparison of var, let, and const
 
+- `CH_5_Literials/` - Chapter 5: Literals
+  - `Literal.js` - JavaScript literal types examples (string, number, boolean, null, undefined)
+  - `null.js` - Exploring null and undefined values in JavaScript
+  - `null_undefined.js` - Detailed comparison of null vs undefined
+
 ## Getting Started
 
 1. Install Node.js (if not already installed)
