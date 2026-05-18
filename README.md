@@ -26,6 +26,8 @@ This repository contains Playwright JavaScript examples and exercises.
   - `functions.js` - JavaScript functions examples
   - `Hoisting.js` - JavaScript hoisting concept
   - `hoisting_fn.js` - Function hoisting examples
+  - `Jr_QA.js` - JavaScript variable declaration example
+  - `let_const.js` - Let and const keyword examples
   - `let_peope_love.js` - Why developers love let keyword
   - `let_scope.js` - Let keyword scoping examples
   - `var_explained.js` - Explaining JavaScript var keyword
