@@ -38,6 +38,8 @@ This repository contains Playwright JavaScript examples and exercises.
    - `Literal.js` - JavaScript literal types examples (string, number, boolean, null, undefined)
    - `Literal_All.js` - Examples of different numeric literal formats (hex, octal, scientific notation)
    - `Literal_Number_all.js` - Comprehensive examples of all number types in JavaScript
+   - `String.js` - Examples of JavaScript string literals (single and double quotes)
+   - `Template_Literal.js` - Examples of JavaScript template literals (backticks)
    - `null.js` - Exploring null and undefined values in JavaScript
    - `null_undefined.js` - Detailed comparison of null vs undefined
 
