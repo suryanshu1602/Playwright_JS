@@ -81,6 +81,8 @@ This repository contains Playwright JavaScript examples and exercises.
    - `Task_1.js` - Even or Odd number checker
    - `Task_2.js` - Student Grade Calculator (marks to grade conversion)
    - `Task_3.js` - Leap Year Checker
+- `.sixth/CH_7_IF_ELSE/` - Chapter 7: If-Else Statements
+   - `README.md` - Placeholder for if-else statement examples
 
 ## License
 
