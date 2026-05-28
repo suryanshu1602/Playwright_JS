@@ -70,7 +70,35 @@ This repository contains Playwright JavaScript examples and exercises.
    - `Null_Op.js` - Nullish coalescing operator (??), optional chaining (?.), and null checks
    - `String_Con_Op.js` - String concatenation examples
    - `Ternary_Op.js` - Ternary operator (condition ? expr1 : expr2) examples
-   - `Type_Op.js` - typeof operator and instanceof examples
+    - `Type_Op.js` - typeof operator and instanceof examples
+
+- `CH_10_Loops/` - Chapter 10: Loops
+    - `While.js` - JavaScript while loop examples
+    - `Do_While.js` - JavaScript do-while loop examples
+    - `Do_While2.js` - Additional do-while loop examples
+    - `For_loop.js` - Basic for loop examples
+    - `For_loop1.js` - Additional for loop examples
+    - `For_Loop3.js` - Advanced for loop examples
+    - `For_OF_IN_EACH.js` - for...of and for...in loop examples
+    - `IQ.js` - Loop interview questions
+    - `IQ1.js` - Additional loop interview questions
+    - `IQ2.js` - More loop interview questions
+    - `IQ3.js` - Further loop interview questions
+    - `IQ4.js` - Final loop interview questions
+
+- `CH_11_Arrays/` - Chapter 11: Arrays
+    - `Arrays.js` - Basic array creation and access examples
+    - `Arrays2.js` - Array manipulation examples
+    - `Arrays3.js` - More array manipulation examples
+    - `Arrays_Adding_Remove.js` - Adding and removing elements from arrays
+    - `Access_Array.js` - Array element access patterns
+    - `Array_Checking.js` - Checking array contents and properties
+    - `Array_Slicing.js` - Array slicing and subarray examples
+    - `Concat_array.js` - Array concatenation examples
+    - `Iterate.js` - Array iteration methods
+    - `Searching.js` - Searching for elements in arrays
+    - `Transform_Array.js` - Transforming array elements
+    - `REAL_Example.js` - Real-world array usage examples
 
 ## Requirements
 
