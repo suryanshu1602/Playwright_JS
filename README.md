@@ -100,6 +100,11 @@ This repository contains Playwright JavaScript examples and exercises.
     - `Transform_Array.js` - Transforming array elements
     - `REAL_Example.js` - Real-world array usage examples
 
+- `CH_12_Function/` - Chapter 12: Functions
+    - `Fn_Expression.js` - Function expression examples
+    - `Template_literal.js` - Template literal examples in functions
+    - `Type4_Fn_With_Param_With_Return.js` - Functions with parameters and return values
+
 ## Requirements
 
 - Node.js >= 14
