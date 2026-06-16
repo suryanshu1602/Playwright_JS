@@ -150,6 +150,24 @@ This repository contains Playwright JavaScript examples and exercises.
     - `IQ_Right_Pattern_Py.js` - Star pattern printing with nested loops
     - `REAL.js` - Real-world 2D array usage (test case matrix) examples
 
+- `CH_16_Callback/` - Chapter 16: Callbacks
+    - `Callback.js` - Basic callback function examples with order placement flow
+    - `CB.js` - Simple callback test example
+    - `CB_Fn.js` - Cafe order callback simulation examples
+    - `CB_Hell.js` - Callback hell with end-to-end login flow
+    - `CB_Hell_20_Steps.js` - 24-step callback hell: E2E checkout journey
+    - `CB_Parameter.js` - Passing callbacks as parameters with tester greeting
+    - `CB_Return.js` - Callback functions returning values (calculator pattern)
+    - `Async_CB.js` - Asynchronous callbacks with setTimeout API simulation
+    - `Sync_CB.js` - Synchronous callbacks with forEach test results
+    - `JS_CB.js` - JavaScript async callback with setTimeout
+    - `PW_CB.js` - Playwright-style custom test runner with callbacks
+    - `2D_Array.js` - 2D array creation and element access examples
+    - `2d.js` - Matrix/2D array grid structure examples
+    - `2d_Array_Fn.js` - 2D array functional methods (map, reduce) examples
+    - `IQ_Right_Pattern_Py.js` - Star pattern printing with nested loops
+    - `REAL.js` - Real-world 2D array usage (test case matrix) examples
+
 ## Requirements
 
 - Node.js >= 14
