@@ -162,11 +162,25 @@ This repository contains Playwright JavaScript examples and exercises.
     - `Sync_CB.js` - Synchronous callbacks with forEach test results
     - `JS_CB.js` - JavaScript async callback with setTimeout
     - `PW_CB.js` - Playwright-style custom test runner with callbacks
-    - `2D_Array.js` - 2D array creation and element access examples
-    - `2d.js` - Matrix/2D array grid structure examples
-    - `2d_Array_Fn.js` - 2D array functional methods (map, reduce) examples
-    - `IQ_Right_Pattern_Py.js` - Star pattern printing with nested loops
-    - `REAL.js` - Real-world 2D array usage (test case matrix) examples
+
+- `CH_17_Promise/` - Chapter 17: Promises
+    - `Promise.js` - Basic Promise example simulating a food order
+    - `Promise_ALL.js` - Promise.all() with system checks demonstration
+    - `Promise_IQ.js` - Interview/quiz questions on Promise behavior
+    - `Promise_REAL_API.js` - Simulates a real API call with Promise resolve
+    - `Promise_REAL_API_PART2.js` - Handles API rejection (500 error) via Promise
+    - `Call_Py_Problem.js` - Promise-based browser and Python automation setup
+    - `Finally.js` - Promise .finally() method usage demonstration
+
+- `CH_18_Async_Await/` - Chapter 18: Async/Await
+    - `Async.js` - Async function handling a rejected promise (503)
+    - `Async_Ex.js` - Basic async/await function example (getTestResult)
+    - `Aysnc_P2.js` - Returns a token using Promise.resolve
+    - `AA_Parallel.js` - Parallel async/await execution (no dependency)
+    - `AA_Seq.js` - Sequential async/await execution (with dependency)
+    - `ACLogin.js` - Playwright login test using async/await
+    - `IQ.js` - Interview/quiz questions on async/await behavior
+    - `PyODom.js` - Promise-based browser DOM automation (open browser)
 
 ## Requirements
 

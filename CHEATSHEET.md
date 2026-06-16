@@ -128,6 +128,45 @@
 - Additional object interview questions
 - Spread operator with objects examples
 
+### CH_15__2D_Array: 2D Arrays
+- 2D array creation and element access examples
+- Matrix/2D array grid structure examples
+- 2D array functional methods (map, reduce) examples
+- Star pattern printing with nested loops
+- Real-world 2D array usage (test case matrix) examples
+
+### CH_16_Callback: Callbacks
+- Basic callback function examples with order placement flow
+- Simple callback test example
+- Cafe order callback simulation examples
+- Callback hell with end-to-end login flow
+- 24-step callback hell: E2E checkout journey
+- Passing callbacks as parameters with tester greeting
+- Callback functions returning values (calculator pattern)
+- Asynchronous callbacks with setTimeout API simulation
+- Synchronous callbacks with forEach test results
+- JavaScript async callback with setTimeout
+- Playwright-style custom test runner with callbacks
+
+### CH_17_Promise: Promises
+- Basic Promise example simulating a food order
+- Promise.all() with system checks demonstration
+- Interview/quiz questions on Promise behavior
+- Simulates a real API call with Promise resolve
+- Handles API rejection (500 error) via Promise
+- Promise-based browser and Python automation setup
+- Promise .finally() method usage demonstration
+
+### CH_18_Async_Await: Async/Await
+- Async function handling a rejected promise (503)
+- Basic async/await function example (getTestResult)
+- Returns a token using Promise.resolve
+- Parallel async/await execution (no dependency)
+- Sequential async/await execution (with dependency)
+- Playwright login test using async/await
+- Interview/quiz questions on async/await behavior
+- Promise-based browser DOM automation (open browser)
+
 ## Getting Started
 1. Install Node.js (if not already installed)
 2. Install dependencies: `npm install`
