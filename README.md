@@ -143,6 +143,13 @@ This repository contains Playwright JavaScript examples and exercises.
     - `IQ1,js` - Additional object interview questions
     - `Spead.js` - Spread operator with objects examples
 
+- `CH_15__2D_Array/` - Chapter 15: 2D Arrays
+    - `2D_Array.js` - 2D array creation and element access examples
+    - `2d.js` - Matrix/2D array grid structure examples
+    - `2d_Array_Fn.js` - 2D array functional methods (map, reduce) examples
+    - `IQ_Right_Pattern_Py.js` - Star pattern printing with nested loops
+    - `REAL.js` - Real-world 2D array usage (test case matrix) examples
+
 ## Requirements
 
 - Node.js >= 14
