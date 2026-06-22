@@ -44,18 +44,6 @@ This repository contains Playwright JavaScript examples and exercises.
    - `null.js` - Exploring null and undefined values in JavaScript
    - `null_undefined.js` - Detailed comparison of null vs undefined
 
-## Getting Started
-
-1. Install Node.js (if not already installed)
-2. Install dependencies:
-   ```
-   npm install
-   ```
-3. Run the tests:
-   ```
-   npx playwright test
-   ```
-
 - `CH_6_Operator/` - Chapter 6: Operators
    - `Operator.js` - Basic JavaScript operators introduction
    - `Arithmetic_OP.js` - Arithmetic operators (+, -, *, /) examples
@@ -70,7 +58,35 @@ This repository contains Playwright JavaScript examples and exercises.
    - `Null_Op.js` - Nullish coalescing operator (??), optional chaining (?.), and null checks
    - `String_Con_Op.js` - String concatenation examples
    - `Ternary_Op.js` - Ternary operator (condition ? expr1 : expr2) examples
-    - `Type_Op.js` - typeof operator and instanceof examples
+   - `Type_Op.js` - typeof operator and instanceof examples
+
+- `CH_7_IF_ELSE/` - Chapter 7: If-Else Statements
+   - `IF_ELSE_real.js` - Real-world if-else examples
+   - `If_elseif_else.js` - If-else-if ladder examples
+   - `IF_ESLE.js` - Basic if-else syntax examples
+   - `Grade_Calc.js` - Grade calculation using if-else
+   - `LEAP_YEAR.js` - Leap year checker
+   - `API_IF_ELSE.js` - API response handling with if-else
+   - `IQ_EVEN_ODD.js` - Even/odd check interview question
+   - `IQ_IF_ELSE.js` - If-else interview questions
+   - `IQ.js` - Additional if-else interview questions
+   - `REAL_IF_ELSE.js` - Real-world if-else scenarios
+
+- `CH_8_Switch_Statement/` - Chapter 8: Switch Statements
+   - `Switch.js` - Basic switch statement examples
+   - `Switch_Group.js` - Grouped switch case examples
+   - `Default.js` - Switch default case examples
+   - `No_Break.js` - Switch without break (fall-through) examples
+   - `REAL_TIME_EXAMPLE.js` - Real-time switch statement examples
+   - `IQ.js` - Switch statement interview questions
+   - `IQ2.js` - Additional switch interview questions
+   - `IQ3.js` - More switch interview questions
+   - `IQ4.js` - Further switch interview questions
+
+- `CH_9_UserInput/` - Chapter 9: User Input
+   - `User_Input.js` - Basic user input examples
+   - `prompt_sync.js` - Using prompt-sync for user input
+   - `Node_readline.js` - Using Node.js readline for input
 
 - `CH_10_Loops/` - Chapter 10: Loops
     - `While.js` - JavaScript while loop examples
@@ -182,10 +198,9 @@ This repository contains Playwright JavaScript examples and exercises.
     - `IQ.js` - Interview/quiz questions on async/await behavior
     - `PyODom.js` - Promise-based browser DOM automation (open browser)
 
-## Requirements
-
-- Node.js >= 14
-- Playwright
+- `CH_19_Playwright_Basics/` - Chapter 19: Playwright Basics
+    - `package.json` - Project dependencies and configuration
+    - `package-lock.json` - Lockfile for installed dependencies
 
 - `TASK/` - Practice Tasks Directory
    - `Task_1.js` - Even or Odd number checker
@@ -197,8 +212,28 @@ This repository contains Playwright JavaScript examples and exercises.
    - `Task_7.js` - [Description needed]
    - `Task_8.js` - [Description needed]
    - `Task_9.js` - [Description needed]
-- `.sixth/CH_7_IF_ELSE/` - Chapter 7: If-Else Statements
-   - `README.md` - Placeholder for if-else statement examples
+
+## Requirements
+
+- Node.js >= 14
+- Playwright
+
+## Getting Started
+
+1. Install Node.js (if not already installed)
+2. Navigate to the chapter and install dependencies:
+   ```
+   cd CH_19_Playwright_Basics
+   npm install
+   ```
+3. Install Playwright browsers:
+   ```
+   npx playwright install
+   ```
+4. Run the tests:
+   ```
+   npx playwright test
+   ```
 
 ## License
 
