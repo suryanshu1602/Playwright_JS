@@ -202,6 +202,26 @@ This repository contains Playwright JavaScript examples and exercises.
     - `package.json` - Project dependencies and configuration
     - `package-lock.json` - Lockfile for installed dependencies
 
+- `CH_22_Encapsulation/` - Chapter 22: Encapsulation
+    - `Ecap.js` - Encapsulation theory and examples
+    - `ECap_Bank.js` - Encapsulation with bank account simulation
+    - `Ecap_Car.js` - Encapsulation with car object modeling
+    - `REAK_EXAMPLE.js` - Encapsulation real-world example
+
+- `CH_23_Inheritance/` - Chapter 23: Inheritance
+    - `Hierarchial_Inheritance.js` - Hierarchical inheritance example
+    - `IQ.js` - Inheritance interview questions
+    - `IQ2.js` - Additional inheritance interview questions
+    - `Multiple_Inheritance.js` - Multiple inheritance example
+    - `Multiple_Level_Inheritance.js` - Multi-level inheritance example
+    - `REAL_PageObject_Model.js` - Page Object Model using inheritance
+    - `Single_Inheritance.js` - Single inheritance example
+    - `Single_Inheritance_Con.js` - Single inheritance constructor example
+    - `SI_Example.js` - Single inheritance real-world example
+
+- `CH_24_Polymorphism/` - Chapter 24: Polymorphism
+    - `Method_Overriding.js` - Method overriding example
+
 - `TASK/` - Practice Tasks Directory
    - `Task_1.js` - Even or Odd number checker
    - `Task_2.js` - Student Grade Calculator (marks to grade conversion)
