@@ -239,6 +239,14 @@ This repository contains Playwright JavaScript examples and exercises.
 - `CH_24_Polymorphism/` - Chapter 24: Polymorphism
     - `Method_Overriding.js` - Method overriding example
 
+- `CH_25_OOP_Interview_Questions/` - Chapter 25: OOP Interview Questions
+
+- `CH_26_TypeScript/` - Chapter 26: TypeScript
+    - `TS_HelloWorld.ts` - Basic TypeScript hello world
+    - `TS_Part1.ts` - TypeScript concepts part 1
+    - `tsconfig.json` - TypeScript compiler configuration
+    - `README.md` - Chapter documentation
+
 - `TASK/` - Practice Tasks Directory
    - `Task_1.js` - Even or Odd number checker
    - `Task_2.js` - Student Grade Calculator (marks to grade conversion)
