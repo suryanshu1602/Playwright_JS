@@ -240,6 +240,8 @@ This repository contains Playwright JavaScript examples and exercises.
     - `Method_Overriding.js` - Method overriding example
 
 - `CH_25_OOP_Interview_Questions/` - Chapter 25: OOP Interview Questions
+    - `EX1.js` - OOP interview questions (4 pillars: encapsulation, inheritance, polymorphism, static)
+    - `README.md` - Chapter documentation
 
 - `CH_26_TypeScript/` - Chapter 26: TypeScript
     - `TS_HelloWorld.ts` - Basic TypeScript hello world with type annotations
