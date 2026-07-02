@@ -1,11 +1,40 @@
-# Enum_Fn.ts — Simple Explanation
+# Chapter 28 — TypeScript Enum
 
 ## What is an Enum?
-An **enum** is like a **list of fixed choices**. Like a menu in a restaurant — you can only pick what's on the menu.
+An **enum** is like a **list of fixed choices** — like a drop-down menu where you can only pick from the given options.
 
 ---
 
-### 1. `SeverityLevels` Enum — Bug Priority Levels
+## Files
+
+| File | Description |
+|------|-------------|
+| `ENUM.ts` | Basic enum — `TestStatus` with string values |
+| `Enum_Fn.ts` | Two enums — `SeverityLevels` (bug priority) & `Environment` (API URLs) |
+| `ENUM3.ts` | Enum in functions — `Browser` enum used with `switch` |
+| `API_.ts` | Enum as function parameter — `HTTPMethod` for API requests |
+
+---
+
+## ENUM.ts — Basic Enum
+
+```ts
+enum TestStatus {
+    Pass = "PASS",
+    Fail = "FAIL",
+    Skip = "SKIP",
+    Pending = "PENDING",
+    Blocked = "BLOCKED"
+}
+```
+
+**Output:** `PASS`
+
+---
+
+## Enum_Fn.ts — Multiple Enums
+
+### SeverityLevels — Bug Priority
 
 ```ts
 enum SeverityLevels {
@@ -17,18 +46,7 @@ enum SeverityLevels {
 }
 ```
 
-**Think of it like:** A school report card:
-- **LOW** → "low" — small mistake, no big deal
-- **MEDIUM** → "medium" — needs attention
-- **HIGH** → "high" — serious problem
-- **CRITICAL** → "critical" — very serious!
-- **BLOCKING** → "blocking" — everything is stopped!
-
-**Teacher's note:** Instead of remembering numbers (1,2,3), we use clear names like `LOW`, `HIGH`. Much easier!
-
----
-
-### 2. `Environment` Enum — Website Addresses
+### Environment — API URLs
 
 ```ts
 enum Environment {
@@ -39,31 +57,79 @@ enum Environment {
 }
 ```
 
-**Think of it like:** Your school has different rooms:
-- **Dev** → The practice room (where teachers prepare)
-- **Staging** → The rehearsal room (pretend class)
-- **QA** → The checking room (testing everything works)
-- **Prod** → The real classroom (where students actually study!)
-
----
-
-### 3. Printing the Values
-
-```ts
-console.log(SeverityLevels.LOW);   // → "low"
-console.log(Environment.QA);       // → "https://qa.api.com"
+**Output:**
+```
+low
+https://qa.api.com
 ```
 
-**Think of it like:** Opening a labeled box and reading what's written inside.
+---
+
+## ENUM3.ts — Enum in Function
+
+```ts
+enum Browser {
+    Chrome = "chrome",
+    Firefox = "firefox",
+    Safari = "safari",
+    Edge = "edge"
+}
+```
+
+Each browser maps to its engine:
+- **Chrome** → Chromium
+- **Firefox** → Gecko
+- **Safari** → WebKit
+- **Edge** → Chromium
+
+**Output:**
+```
+Launching Chromium (Chrome v120)
+Launching Gecko (Firefox v115)
+Launching WebKit (Safari v17)
+Launching Chromium (Edge v120)
+```
 
 ---
 
-### 4. Why Use Enums?
+## API_.ts — Enum as Parameter
+
+```ts
+enum HTTPMethod {
+    Geto = "GET",
+    posto = "POST",
+    puto = "PUT",
+    deleto = "DELETE"
+}
+```
+
+**Output:**
+```
+GET /api/users → 200 OK
+POST /api/users → 200 OK
+DELETE /api/users/1 → 200 OK
+```
+
+---
+
+## Why Use Enums?
 
 | Problem | Solution |
 |---------|----------|
-| Typing `"low"` might have spelling mistakes | Use `SeverityLevels.LOW` — always correct! |
-| Forgetting which number = which level | Names are clear: `HIGH`, `LOW` |
+| Typing `"chrome"` may have spelling mistakes | `Browser.Chrome` — always correct |
+| Forgetting values | Clear names: `HIGH`, `LOW`, `PASS`, `FAIL` |
 | Changing a value later | Change in one place, not everywhere |
 
-**In short:** Enums are like a **drop-down menu** — you can only pick from the options given! ✅
+**In short:** Enums prevent invalid values and make code cleaner! ✅
+
+---
+
+## Run All Files
+
+```bash
+npx tsc ENUM.ts Enum_Fn.ts ENUM3.ts API_.ts --outDir out --strict
+node out/ENUM.js
+node out/Enum_Fn.js
+node out/ENUM3.js
+node out/API_.js
+```

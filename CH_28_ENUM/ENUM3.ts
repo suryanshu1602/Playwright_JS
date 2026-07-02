@@ -24,3 +24,6 @@ function launchBrowser(browser: Browser): void {
 }
 
 launchBrowser(Browser.Chrome);
+launchBrowser(Browser.Firefox);
+launchBrowser(Browser.Safari);
+launchBrowser(Browser.Edge);
