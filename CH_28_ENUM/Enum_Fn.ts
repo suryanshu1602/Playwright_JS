@@ -8,11 +8,11 @@ enum SeverityLevels {
 
 console.log(SeverityLevels.LOW);
 
-enum Environment {
+enum AppEnvironment {
     Dev = "https://dev.api.com",
     Staging = "https://staging.api.com",
     QA = "https://qa.api.com",
     Prod = "https://api.com"
 }
 
-console.log(Environment.QA);
+console.log(AppEnvironment.QA);
